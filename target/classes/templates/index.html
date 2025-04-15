@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Задач</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-body">
+            <h1 class="text-center">! НЕРЕАЛЬНО СУПЕР КУРТОЙ СПИСОК ЗАДАЧ !</h1>
+            <form id="todoForm" class="mb-4">
+
+                <div class="footer">
+                    <img src="/static/kostyor-9-0.gif" alt="Анимация" style="display: block; margin: auto;">
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="todoInput" class="form-control" placeholder="Добавьте новую нереально крутую задачу" required>
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="submit">Добавить</button>
+                    </div>
+                </div>
+            </form>
+            <ul id="todoList" class="list-group"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="/js/scripts.js"></script>
+</body>
+</html>
